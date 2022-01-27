@@ -1,0 +1,166 @@
+﻿<!doctype html>
+ 
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+		<title>IZoo</title>
+		
+		<meta name="description" content="HidayatHasan.net web development">
+		<meta name="author" content="HidayatHasan.net">
+ 
+ 
+    <!--css-->
+    <link rel="stylesheet" href="css\style.css">
+	<link rel="stylesheet" href="css\accordion.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ 
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+ 
+
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easyAccordion.js"></script>
+	<script type="text/javascript" src="js/utility.js"></script>
+    
+  
+  <script>
+  $(document).ready(function() {
+	    // put all your jQuery scripts in here.
+		$('#accordion-1').easyAccordion({
+			autoStart:true,
+			SlideInterval:6000,
+			slideNum:false
+			});
+		
+		
+
+		/*$("#btnStart").click(function(){
+			$('#accordion-1').easyAccordion({
+			autoStart:true,
+			SlideInterval:5000
+			});
+		});		
+
+		$("#btnStop").click(function(){
+			$('#accordion-1').easyAccordion({
+			autoStart:false,
+			SlideInterval:0
+			});
+		});			
+		*/
+});
+
+
+  </script>
+  
+  <script>
+  	function t(x)
+	{
+	x.src="images/twitter1.png";
+	}
+	function t1(x)
+	{
+		x.src="images/twitter.png";
+	}
+	
+	
+	function fb(x)
+	{
+	x.src="images/facebook1.png";
+	}
+	function fb1(x)
+	{
+		x.src="images/facebook.png";
+	}
+  </script>
+
+</head>
+<body>
+
+<div id="rope">
+	<img src="images/rope.png" width="600px" height="200px" />
+</div>
+
+
+
+<div id="header">
+</div>
+
+ <div id="wrapper">
+<div class="accor">
+        <div id="accordion-1">
+            <dl>
+                <dt>Home</dt>
+                <dd><h2>Home of our animals</h2><p><img  class="imgacc" src="images/1.jpg" width="200px" height="120px" alt="home" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                <dt>About</dt>
+                <dd><h2>About our Zoo</h2><p><img  class="imgacc" src="images/2.jpg" width="200px" height="120px" alt="about" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                <dt>Features</dt>
+                <dd><h2>Our endangered animals</h2><p><img  class="imgacc" src="images/3.jpg" width="200px" height="120px" alt="Award" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+                <dt>Contact</dt>
+                <dd><h2>Our Contact Info</h2><p><img  class="imgacc" width="200px" height="120px" src="images/4.jpg" alt="Call us" />Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br /><a href="#" class="more">Read more</a></p></dd>
+			</dl>
+        </div>
+		</div>
+
+<table id="wrapcontent">
+<tr><td>		
+<div id="wrapper2">
+<h2 class="page">Please Save Our Zoo!</h2>
+<p >Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, enim.<br />
+<a href="#">Read more..</a>
+</p>
+</div>	
+</td>
+<td>
+<div id="wrapper3">
+<h2 class="page">Follow us at:</h2>
+<a href="#"><img onmouseout="fb1(this)" onmouseover="fb(this)" src="images/facebook.png" width="50px" height="50px"/></a>
+<a href="#"><img onmouseout="t1(this)" onmouseover="t(this)"  src="images/twitter.png" width="50px" height="50px"/></a>
+</p>
+</div>
+
+<div id="wrapper4">
+<h2 class="page">Your Donation is greatly appreciated:</h2>
+<!-- paypal -->
+<div id="paypal">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TRHV2FLF7J73Q">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+</p>
+</div>
+</td></tr>
+</table>
+
+	
+</div> 
+
+<div id="footline">
+</div>
+
+<div id="footnote">
+<div id="menu">
+<nav>
+	<a href="#">Home</a> |
+	<a href="#">About</a> |
+	<a href="#">Features</a> |
+	<a href="#">Contact</a>
+</nav>
+</div>
+
+<div id="logo">
+<a>
+<img id="logo1" width="130px" height="130px" src="images/logo.png">
+</a>
+</div>
+<a href="http://www.HidayatHasan.net" target="_blank">Copyright © 2013 HidayatHasan.net</a>
+</div>
+
+</body>
+</html>
